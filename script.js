@@ -86,12 +86,12 @@ async function chart() {
 }
 async function table() {
     const element = document.getElementById("refresh")
-    element.classList.add("animate-spin")
+    element.classList.add("animate-spin-fast")
     element.classList.remove("shadow-xl")
     setTimeout(() => {
         console.log("Hello my friend")
-        element.classList.remove("animate-spin")
+        element.classList.remove("animate-spin-fast")
         element.classList.add("shadow-xl")},
-        1250)
+        2000)
 }
 
