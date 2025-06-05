@@ -1,0 +1,11 @@
+DATABASE : 
+
+pages:
+    ngram1_2008 (only the year 2008)
+    ngram1_2000 (years 2000-2008 included)
+
+format : 
+    ngram1_2000
+        column1, column2, column3, column4
+    ngram1_2008
+        word, year, match_count, volume_count 

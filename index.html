@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY OWN WEBPAGE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h1>ToolBar thing</h1>
+    </header>
+    <div id="subtitle">
+        <h3>Name Of Product</h3>
+    </div>
+    <div id="problematic-word">
+        <h4>Problematic word : <input id="input-word" type="text" placeholder="Enter your text here"></h4>
+        <select id="dropdown" style="width: 300px;">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+        </select>    
+    </div>
+    
+
+    <main>
+        <div id="left-side">
+            <textarea required wrap="hard" spellcheck="true" id="text" name="text" rows="1000" cols="130" placeholder="Type options here..."> HELLO </textarea>
+        </div>
+        <div id="right-side">
+            <div id="graph-div">
+            </div>
+            <div id="sentences-highlighted">
+                <p>right side sentences</p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2024 My Website</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
