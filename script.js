@@ -84,4 +84,14 @@ async function chart() {
 
     Plotly.newPlot('graph-div', data, layout);
 }
+async function table() {
+    const element = document.getElementById("refresh")
+    element.classList.add("animate-spin")
+    element.classList.remove("shadow-xl")
+    setTimeout(() => {
+        console.log("Hello my friend")
+        element.classList.remove("animate-spin")
+        element.classList.add("shadow-xl")},
+        1250)
+}
 

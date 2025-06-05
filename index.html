@@ -27,20 +27,22 @@
         </div>
         
 
-        <main class="h-80vh">
-            <div id="left-side">
-                <textarea class="bg-gray-700 text-white rounded-xl p-5" required wrap="hard" spellcheck="false" id="text" name="text" rows="1000" cols="130" placeholder="Type options here..."> HELLO </textarea>
+        <main class="flex h-[80vh]">
+            <div class="w-7/10 h-[100%] object-contain p-5" id="left-side">
+                <textarea class="bg-gray-700 h-[95%] w-full text-white rounded-xl p-5" required wrap="hard" spellcheck="false" id="text" name="text" rows="1000" cols="130" placeholder="Type options here..."> HELLO </textarea>
             </div>
-            <div id="right-side">
-                <div class="flex flex-col" id="graph-div">
-                    <div class="basis-2">
-                        <img class="object-contain" src="Refresh.png"></img>
+            <div class="w-3/10 o-5" id="right-side">
+                <div class="h-4/10 w-full flex flex-col" id="graph-div">
+                    <div class="flex items-center justify-center h-3/10 p-5">
+                        <img id="refresh" class="h-full bg-gradient-to-bl from-amber-400 to-violet-400 rounded-xl p-1 cursor-pointer shadow-xl hover:h-11/10 transition-all duration-300" src="Refresh.png" onclick="table()"></img>
                     </div>
-                    <div class="basis-32">
+                    <div class="h-7/10 p-5">
+                        <div id="table" class="bg-black">
 
+                        </div>
                     </div>
                 </div>
-                <div id="sentences-highlighted">
+                <div class="h-6/10" id="sentences-highlighted">
                     <p>right side sentences</p>
                 </div>
             </div>
