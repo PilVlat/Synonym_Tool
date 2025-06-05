@@ -5,11 +5,11 @@ html {
     -ms-overflow-style: none;  /* Hide scrollbar for Internet Explorer 10+ */
     scrollbar-width: none; /* Hide scrollbar for Firefox */
 }
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 ::-webkit-scrollbar {
     width: 0px;  /* Hide the vertical scrollbar */
@@ -19,7 +19,7 @@ html, body {
 #header {
     text-align: center;
     padding: 0.01em;
-    background-color:#283044;
+    background-color:#1341b5;
     color: white;
 }
 #subtitle {
@@ -43,7 +43,6 @@ main {
 }
 
 #left-side {
-    border: 0.1vw solid #ccc;
     height: 80vh;
     flex: 2;
     display: flex;
@@ -56,12 +55,10 @@ main {
     width: 95%;
     height: 95%;
     margin: 1%;
-    background-color:#F1D6B8;
     resize: none;
 }
 
 #right-side {
-    border: 0.1vw solid #ccc;
     flex: 1;
     height: 80vh;
     display: flex;
@@ -88,4 +85,4 @@ main {
     flex: 2;
 }
 
-/*   https://coolors.co/283044-78a1bb-f1d6b8-b76d68-5b3000  */
+  /* https://coolors.co/283044-78a1bb-f1d6b8-b76d68-5b3000  */
