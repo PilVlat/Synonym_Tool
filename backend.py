@@ -70,29 +70,33 @@ print("similarity model loaded")
 
 def get_synonyms(word):
     word = word.lower()
-    if word == "fear":
-        words = ['anxiety', 'fearfulness', 'dread', 'panic', 'terror', 'fright', 'worry', 'horror', 'trepidation', 'scare', 'concern', 'dismay', 'alarm', 'phobia', 'nervousness', 'alarum', 'pang', 'apprehension', 'agitation', 'creeps', 'jitters', 'consternation', 'twinge', 'timidity', 'perturbation', 'cowardice', 'disquiet', 'qualm', 'funk', 'willies', 'discomposure', 'faintheartedness', 'timorousness', 'worry', 'fret', 'trouble', 'stress', 'sweat', 'bother', 'care a hang', 'stew', 'fuss', 'sweat blood', 'despair', 'give a hang', 'long', 'pine', 'agonize', 'yearn', 'chafe', 'anxiety', 'fearfulness', 'dread', 'panic', 'terror', 'fright', 'worry', 'horror', 'trepidation', 'scare', 'concern', 'dismay', 'alarm', 'phobia', 'nervousness', 'alarum', 'pang', 'apprehension', 'agitation', 'creeps', 'jitters', 'consternation', 'twinge', 'timidity', 'perturbation', 'cowardice', 'disquiet', 'qualm', 'funk', 'willies', 'discomposure', 'faintheartedness', 'timorousness', 'worry', 'fret', 'trouble', 'stress', 'sweat', 'bother', 'care a hang', 'stew', 'fuss', 'sweat blood', 'despair', 'give a hang', 'long', 'pine', 'agonize', 'yearn', 'chafe']
-    elif word == "shone":
-        words = ['glowed', 'glinted', 'gleamed', 'beamed', 'burnt', 'sparkled', 'radiated', 'flickered', 'flared', 'rayed', 'shimmered', 'glimmered', 'twinkled', 'blazed', 'glistened', 'illumined', 'glittered', 'lighted', 'burned', 'lit', 'illuminated', 'flashed', 'glared', 'brightened', 'beat (down)', 'blinked', 'lightened', 'sheened', 'flamed', 'blinded', 'winked', 'dazzled', 'fired', 'spangled', 'lustred', 'scintillated', 'luminesced', 'irradiated', 'glistered', 'winkled', 'lustered', 'coruscated', 'dazed', 'bedazzled', 'glowed', 'glinted', 'gleamed', 'beamed', 'burnt', 'sparkled', 'radiated', 'flickered', 'flared', 'rayed', 'shimmered', 'glimmered', 'twinkled', 'blazed', 'glistened', 'illumined', 'glittered', 'lighted', 'burned', 'lit', 'illuminated', 'flashed', 'glared', 'brightened', 'beat (down)', 'blinked', 'lightened', 'sheened', 'flamed', 'blinded', 'winked', 'dazzled', 'fired', 'spangled', 'lustred', 'scintillated', 'luminesced', 'irradiated', 'glistered', 'winkled', 'lustered', 'coruscated', 'dazed', 'bedazzled']
-    elif word == "anticipation":
-        words = ['expectation', 'expectancy', 'expectance', 'contemplation', 'prospect', 'dread', 'apprehension', 'alarm', 'foreboding', 'alarum', 'misgiving', 'expectation', 'expectancy', 'expectance', 'contemplation', 'prospect', 'dread', 'apprehension', 'alarm', 'foreboding', 'alarum', 'misgiving']
-    elif word == "cause":
-        words = ['create', 'bring', 'generate', 'prompt', 'produce', 'do', 'work', 'induce', 'spawn', 'yield', 'effect', 'make', 'invoke', 'effectuate', 'result (in)', 'bring about', 'catalyze', 'draw on', 'translate (into)', 'encourage', 'found', 'promote', 'give rise to', 'introduce', 'breed', 'beget', 'engender', 'occasion', 'bring forth', 'bring on', 'contribute (to)', 'initiate', 'determine', 'inaugurate', 'establish', 'launch', 'begin', 'pioneer', 'develop', 'start', 'decide', 'foster', 'institute', 'render', 'cultivate', 'further', 'conduce (to)', 'set up', 'forward', 'enact', 'advance', 'set', 'turn out', 'father', 'nurture', 'innovate', 'nourish', 'reason', 'determinant', 'causation', 'source', 'causality', 'antecedent', 'occasion', 'consideration', 'factor', 'origin', 'impetus', 'incentive', 'mother', 'stimulus', 'root', 'instigation', 'inspiration', 'spring', 'be-all and end-all', 'alpha and omega', 'create', 'bring', 'generate', 'prompt', 'produce', 'do', 'work', 'induce', 'spawn', 'yield', 'effect', 'make', 'invoke', 'effectuate', 'result (in)', 'bring about', 'catalyze', 'draw on', 'translate (into)', 'encourage', 'found', 'promote', 'give rise to', 'introduce', 'breed', 'beget', 'engender', 'occasion', 'bring forth', 'bring on', 'contribute (to)', 'initiate', 'determine', 'inaugurate', 'establish', 'launch', 'begin', 'pioneer', 'develop', 'start', 'decide', 'foster', 'institute', 'render', 'cultivate', 'further', 'conduce (to)', 'set up', 'forward', 'enact', 'advance', 'set', 'turn out', 'father', 'nurture', 'innovate', 'nourish', 'reason', 'determinant', 'causation', 'source', 'causality', 'antecedent', 'occasion', 'consideration', 'factor', 'origin', 'impetus', 'incentive', 'mother', 'stimulus', 'root', 'instigation', 'inspiration', 'spring', 'be-all and end-all', 'alpha and omega']
-    elif word == "curious":
-        words = ['inquisitive', 'interested', 'nosey', 'nosy', 'concerned', 'prying', 'questioning', 'officious', 'intrusive', 'quizzical', 'obtrusive', 'snoopy', 'meddlesome', 'meddling', 'interrogative', 'inquisitorial', 'interfering', 'inquisitional', 'inquisitive', 'interested', 'nosey', 'nosy', 'concerned', 'prying', 'questioning', 'officious', 'intrusive', 'quizzical', 'obtrusive', 'snoopy', 'meddlesome', 'meddling', 'interrogative', 'inquisitorial', 'interfering', 'inquisitional']
-    elif word == "issues":
-        words = ['consequences', 'outcomes', 'results', 'resultants', 'effects', 'products', 'developments', 'implications', 'aftermaths', 'matters of course', 'aftereffects', 'fruits', 'precipitates', 'children', 'ramifications', 'sequels', 'fates', 'corollaries', 'sequences', 'conclusions', 'upshots', 'outgrowths', 'repercussions', 'backwashes', 'byproducts', 'echos', 'side effects', 'side reactions', 'echoes', 'denouements', 'fallouts', 'dénouements', 'by-products', 'aftershocks', 'afterclaps', 'ripples', 'offshoots', 'blowbacks', 'spin-offs', 'afterglows', 'publishes', 'prints', 'reprints', 'comes out with', 'gets out', 'reissues', 'produces', 'contributes', 'edits', 'markets', 'copublishes', 'manufactures', 'puts out', 'syndicates', 'serializes', 'republishes', 'distributes']
-    elif word == "focus":
-        words = ['center', 'hub', 'capital', 'mecca', 'core', 'heart', 'seat', 'locus', 'base', 'nucleus', 'central', 'nexus', 'axis', 'ground zero', 'headquarters', 'epicenter', 'eye', 'navel', 'nerve center', 'cynosure', 'playground', 'omphalos', "where it's at", 'hot spot', 'essence', 'attraction', 'hotbed', 'magnet', 'kernel', 'hive', 'nub', 'pith', 'happy hunting ground', 'thick', 'deep', 'soul', 'playland', 'loadstone', 'polestar', 'lodestone', 'quintessence', 'concentrate', 'rivet', 'center', 'train', 'fasten', 'point', 'aim', 'home (in on)', 'direct', 'refocus', 'set', 'heed', 'level', 'zero (in on)', 'attend', 'mind', 'nail', 'fixate (on)', 'hone in (on)', 'obsess (over)', 'center', 'hub', 'capital', 'mecca', 'core', 'heart', 'seat', 'locus', 'base', 'nucleus', 'central', 'nexus', 'axis', 'ground zero', 'headquarters', 'epicenter', 'eye', 'navel', 'nerve center', 'cynosure', 'playground', 'omphalos', "where it's at", 'hot spot', 'essence', 'attraction', 'hotbed', 'magnet', 'kernel', 'hive', 'nub', 'pith', 'happy hunting ground', 'thick', 'deep', 'soul', 'playland', 'loadstone', 'polestar', 'lodestone', 'quintessence', 'concentrate', 'rivet', 'center', 'train', 'fasten', 'point', 'aim', 'home (in on)', 'direct', 'refocus', 'set', 'heed', 'level', 'zero (in on)', 'attend', 'mind', 'nail', 'fixate (on)', 'hone in (on)', 'obsess (over)']
+    using_api_key = False
+    if using_api_key:
+        if word == "fear":
+            words = ['anxiety', 'fearfulness', 'dread', 'panic', 'terror', 'fright', 'worry', 'horror', 'trepidation', 'scare', 'concern', 'dismay', 'alarm', 'phobia', 'nervousness', 'alarum', 'pang', 'apprehension', 'agitation', 'creeps', 'jitters', 'consternation', 'twinge', 'timidity', 'perturbation', 'cowardice', 'disquiet', 'qualm', 'funk', 'willies', 'discomposure', 'faintheartedness', 'timorousness', 'worry', 'fret', 'trouble', 'stress', 'sweat', 'bother', 'care a hang', 'stew', 'fuss', 'sweat blood', 'despair', 'give a hang', 'long', 'pine', 'agonize', 'yearn', 'chafe', 'anxiety', 'fearfulness', 'dread', 'panic', 'terror', 'fright', 'worry', 'horror', 'trepidation', 'scare', 'concern', 'dismay', 'alarm', 'phobia', 'nervousness', 'alarum', 'pang', 'apprehension', 'agitation', 'creeps', 'jitters', 'consternation', 'twinge', 'timidity', 'perturbation', 'cowardice', 'disquiet', 'qualm', 'funk', 'willies', 'discomposure', 'faintheartedness', 'timorousness', 'worry', 'fret', 'trouble', 'stress', 'sweat', 'bother', 'care a hang', 'stew', 'fuss', 'sweat blood', 'despair', 'give a hang', 'long', 'pine', 'agonize', 'yearn', 'chafe']
+        elif word == "shone":
+            words = ['glowed', 'glinted', 'gleamed', 'beamed', 'burnt', 'sparkled', 'radiated', 'flickered', 'flared', 'rayed', 'shimmered', 'glimmered', 'twinkled', 'blazed', 'glistened', 'illumined', 'glittered', 'lighted', 'burned', 'lit', 'illuminated', 'flashed', 'glared', 'brightened', 'beat (down)', 'blinked', 'lightened', 'sheened', 'flamed', 'blinded', 'winked', 'dazzled', 'fired', 'spangled', 'lustred', 'scintillated', 'luminesced', 'irradiated', 'glistered', 'winkled', 'lustered', 'coruscated', 'dazed', 'bedazzled', 'glowed', 'glinted', 'gleamed', 'beamed', 'burnt', 'sparkled', 'radiated', 'flickered', 'flared', 'rayed', 'shimmered', 'glimmered', 'twinkled', 'blazed', 'glistened', 'illumined', 'glittered', 'lighted', 'burned', 'lit', 'illuminated', 'flashed', 'glared', 'brightened', 'beat (down)', 'blinked', 'lightened', 'sheened', 'flamed', 'blinded', 'winked', 'dazzled', 'fired', 'spangled', 'lustred', 'scintillated', 'luminesced', 'irradiated', 'glistered', 'winkled', 'lustered', 'coruscated', 'dazed', 'bedazzled']
+        elif word == "anticipation":
+            words = ['expectation', 'expectancy', 'expectance', 'contemplation', 'prospect', 'dread', 'apprehension', 'alarm', 'foreboding', 'alarum', 'misgiving', 'expectation', 'expectancy', 'expectance', 'contemplation', 'prospect', 'dread', 'apprehension', 'alarm', 'foreboding', 'alarum', 'misgiving']
+        elif word == "cause":
+            words = ['create', 'bring', 'generate', 'prompt', 'produce', 'do', 'work', 'induce', 'spawn', 'yield', 'effect', 'make', 'invoke', 'effectuate', 'result (in)', 'bring about', 'catalyze', 'draw on', 'translate (into)', 'encourage', 'found', 'promote', 'give rise to', 'introduce', 'breed', 'beget', 'engender', 'occasion', 'bring forth', 'bring on', 'contribute (to)', 'initiate', 'determine', 'inaugurate', 'establish', 'launch', 'begin', 'pioneer', 'develop', 'start', 'decide', 'foster', 'institute', 'render', 'cultivate', 'further', 'conduce (to)', 'set up', 'forward', 'enact', 'advance', 'set', 'turn out', 'father', 'nurture', 'innovate', 'nourish', 'reason', 'determinant', 'causation', 'source', 'causality', 'antecedent', 'occasion', 'consideration', 'factor', 'origin', 'impetus', 'incentive', 'mother', 'stimulus', 'root', 'instigation', 'inspiration', 'spring', 'be-all and end-all', 'alpha and omega', 'create', 'bring', 'generate', 'prompt', 'produce', 'do', 'work', 'induce', 'spawn', 'yield', 'effect', 'make', 'invoke', 'effectuate', 'result (in)', 'bring about', 'catalyze', 'draw on', 'translate (into)', 'encourage', 'found', 'promote', 'give rise to', 'introduce', 'breed', 'beget', 'engender', 'occasion', 'bring forth', 'bring on', 'contribute (to)', 'initiate', 'determine', 'inaugurate', 'establish', 'launch', 'begin', 'pioneer', 'develop', 'start', 'decide', 'foster', 'institute', 'render', 'cultivate', 'further', 'conduce (to)', 'set up', 'forward', 'enact', 'advance', 'set', 'turn out', 'father', 'nurture', 'innovate', 'nourish', 'reason', 'determinant', 'causation', 'source', 'causality', 'antecedent', 'occasion', 'consideration', 'factor', 'origin', 'impetus', 'incentive', 'mother', 'stimulus', 'root', 'instigation', 'inspiration', 'spring', 'be-all and end-all', 'alpha and omega']
+        elif word == "curious":
+            words = ['inquisitive', 'interested', 'nosey', 'nosy', 'concerned', 'prying', 'questioning', 'officious', 'intrusive', 'quizzical', 'obtrusive', 'snoopy', 'meddlesome', 'meddling', 'interrogative', 'inquisitorial', 'interfering', 'inquisitional', 'inquisitive', 'interested', 'nosey', 'nosy', 'concerned', 'prying', 'questioning', 'officious', 'intrusive', 'quizzical', 'obtrusive', 'snoopy', 'meddlesome', 'meddling', 'interrogative', 'inquisitorial', 'interfering', 'inquisitional']
+        elif word == "issues":
+            words = ['consequences', 'outcomes', 'results', 'resultants', 'effects', 'products', 'developments', 'implications', 'aftermaths', 'matters of course', 'aftereffects', 'fruits', 'precipitates', 'children', 'ramifications', 'sequels', 'fates', 'corollaries', 'sequences', 'conclusions', 'upshots', 'outgrowths', 'repercussions', 'backwashes', 'byproducts', 'echos', 'side effects', 'side reactions', 'echoes', 'denouements', 'fallouts', 'dénouements', 'by-products', 'aftershocks', 'afterclaps', 'ripples', 'offshoots', 'blowbacks', 'spin-offs', 'afterglows', 'publishes', 'prints', 'reprints', 'comes out with', 'gets out', 'reissues', 'produces', 'contributes', 'edits', 'markets', 'copublishes', 'manufactures', 'puts out', 'syndicates', 'serializes', 'republishes', 'distributes']
+        elif word == "focus":
+            words = ['center', 'hub', 'capital', 'mecca', 'core', 'heart', 'seat', 'locus', 'base', 'nucleus', 'central', 'nexus', 'axis', 'ground zero', 'headquarters', 'epicenter', 'eye', 'navel', 'nerve center', 'cynosure', 'playground', 'omphalos', "where it's at", 'hot spot', 'essence', 'attraction', 'hotbed', 'magnet', 'kernel', 'hive', 'nub', 'pith', 'happy hunting ground', 'thick', 'deep', 'soul', 'playland', 'loadstone', 'polestar', 'lodestone', 'quintessence', 'concentrate', 'rivet', 'center', 'train', 'fasten', 'point', 'aim', 'home (in on)', 'direct', 'refocus', 'set', 'heed', 'level', 'zero (in on)', 'attend', 'mind', 'nail', 'fixate (on)', 'hone in (on)', 'obsess (over)', 'center', 'hub', 'capital', 'mecca', 'core', 'heart', 'seat', 'locus', 'base', 'nucleus', 'central', 'nexus', 'axis', 'ground zero', 'headquarters', 'epicenter', 'eye', 'navel', 'nerve center', 'cynosure', 'playground', 'omphalos', "where it's at", 'hot spot', 'essence', 'attraction', 'hotbed', 'magnet', 'kernel', 'hive', 'nub', 'pith', 'happy hunting ground', 'thick', 'deep', 'soul', 'playland', 'loadstone', 'polestar', 'lodestone', 'quintessence', 'concentrate', 'rivet', 'center', 'train', 'fasten', 'point', 'aim', 'home (in on)', 'direct', 'refocus', 'set', 'heed', 'level', 'zero (in on)', 'attend', 'mind', 'nail', 'fixate (on)', 'hone in (on)', 'obsess (over)']
+        else:
+            headers = {
+                "X-Api-Key":"17OFIFEu8jNMjQQgnXW1lg==FfkSwkqo1ypAXWta"
+            }
+            url = f"https://api.api-ninjas.com/v1/thesaurus?word={word}"
+            input("USING AN API KEY")
+            response = requests.get(url, headers=headers)
+            words = response.json()["synonyms"]
+            print(words)
     else:
-        headers = {
-            "X-Api-Key":"17OFIFEu8jNMjQQgnXW1lg==FfkSwkqo1ypAXWta"
-        }
-        url = f"https://api.api-ninjas.com/v1/thesaurus?word={word}"
-        input("USING AN API KEY")
-        response = requests.get(url, headers=headers)
-        words = response.json()["synonyms"]
-        print(words)
+        words = []
     datamuse_resp = requests.get(f"https://api.datamuse.com/words?ml={word}").json()
     words = words + [word["word"] for word in datamuse_resp]
     words = [word for word in words if " " not in word]
@@ -162,7 +166,7 @@ def text_weaknesses(text, nlp):
     doc = nlp(text)
     occurences = collections.defaultdict(int)
     for token in doc:
-        if token.pos_ in {"NOUN", "VERB", "ADJ", "ADV", "SCONJ"}:
+        if token.pos_ in {"NOUN", "VERB", "ADJ", "ADV"}:
             word = token.lemma_
             occurences[word] += 1
     word_list = [key for key in occurences]
@@ -500,6 +504,79 @@ def text_graph():
     sorted_occurences = sorted(occurences.items(), key=lambda item: (item[1]), reverse=True)
     dict = {"sorted_occurences":sorted_occurences, "match_count":match_count_text}
     return(jsonify(dict))
+
+
+@app.route('/api/alternatives', methods=['POST', "OPTIONS"])
+@limiter.limit("5 per minute")
+def alternatives():
+    if request.method == 'OPTIONS':
+        response = app.make_response('')
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS'
+        response.headers['Access-Control-Allow-Headers'] = 'Authorization, Content-Type'
+        response.headers['Access-Control-Allow-Credentials'] = 'true'  # Allow credentials (cookies, Authorization headers)
+        response.status_code = 200
+        return response
+    data = request.json
+    word_to_replace = data.get("word")
+    sentence = data.get("sentence")[0]
+    print("Trying")
+    print(f"processing {sentence}, with word = {word_to_replace}")
+    if sentence == "Mary persuades Jack to go to the movies." and word_to_replace=="persuades":
+        response = {'encouraging': (0.9064128836001607, -0.971264212612709, 0.16172406588343533), 'convincing': (1.2570562138594554, -0.9447764578903737, -0.07680985922995545), 'persuasion': (0.33719410782513043, -0.7789628367474037, -0.17237551213820787), 'convince': (1.4904334302765028, 0.02320503066937938, 0.14548805239746115), 'insists': (0.7675807611828821, 0.11814789760254155, -0.20954238380263182), 'presses': (0.6887593597286232, 0.1797361144632822, -0.27637839008528736), 'persuade': (1.580334126559274, 0.41252191743393635, 0.033333429188322064), 'suggests': (1.0466586192052094, 1.019445670699542, 1.9408002961791038), 'gets': (0.7513584191945987, 1.2141746478291182, 1.496440642557778), 'pushes': (0.375681727258195, 1.2528388414343268, -0.3481999113785817), 'persuaded': (1.4637406096398375, 1.2545495717546076, 0.10843018210234841), 'wants': (0.8766504697657697, 1.264800328259491, 2.100580731965147), 'convinced': (1.389532295356169, 1.270576023959457, 0.9175836802892137), 'tells': (0.9133290354064458, 1.272424489471311, 1.489321815033477), 'encourages': (1.1712618377554325, 1.2766384458216657, -0.19101734156112227), 'advises': (0.8764730433361316, 1.2768819260958013, -0.40982461409988236), 'pressures': (0.6103264409797811, 1.2772197475710467, 0.12477000641623802), 'convinces': (1.4832969449955036, 1.2791899532199684, -0.4708186660415967), 'forces': (0.9029501690975504, 1.2825945301918855, 4.054798805307645), 'asks': (0.8796470050218798, 1.285071986411923, 0.6025619371677298), 'begs': (0.97610900025166, 1.2868683198942783, -0.40812471179276705), 'urges': (1.0283651425546145, 1.2884581986916304, -0.3316394890553718), 'urged': (0.9500365922937948, 1.2905787282324304, 0.45538932643201624), 'invites': (0.4582615539311276, 1.2944356098011907, -0.3154605715247511)}
+        return jsonify(response)
+    candidate_words = evaluate_options(sentence, word_to_replace, model_similarity, fill_mask)
+    notDone = True
+    while notDone:
+        notDone = False
+        candidates_predicted = []
+        candidates_non_predicted = []
+        for key in candidate_words:
+            if candidate_words[key][0]==1:
+                candidates_predicted.append((key,candidate_words[key][0],candidate_words[key][1],candidate_words[key][2],candidate_words[key][3]))
+            else:
+                candidates_non_predicted.append((key,candidate_words[key][0],candidate_words[key][1],candidate_words[key][2],candidate_words[key][3]))
+
+
+        candidates_predicted = sorted(candidates_predicted, key=lambda x: x[3])
+        candidates_non_predicted = sorted(candidates_non_predicted, key=lambda x: x[3])
+        sim_values = [candidate_words[x][1] for x in candidate_words]
+        perp_values = [candidate_words[x][2] for x in candidate_words]
+        match_values = [candidate_words[x][3] for x in candidate_words]
+
+        average_similar = sum(sim_values)/len(sim_values)
+        average_perp = sum(perp_values)/len(perp_values)
+        average_match = sum(match_values)/len(match_values)
+
+        sd_similar = np.std(sim_values)
+        sd_perp = np.std(perp_values)
+        sd_match = np.std(match_values)
+
+        #print(f"avg:{average_perp}, sd:{sd_perp}")
+        #print(f"avg:{average_similar}, sd:{sd_similar}")
+        #print(f"avg:{average_match}, sd:{sd_match}")
+        
+        scaled_list_predicted = []
+        scaled_list_non_predicted = []
+        for item in candidates_predicted:
+            if (item[2]-average_similar)/sd_similar>-3 and (item[3]-average_perp)/sd_perp>-3:
+                scaled_list_predicted.append((item[0], item[1], (item[2]-average_similar)/sd_similar, (item[3]-average_perp)/sd_perp, (item[4]-average_match)/sd_match))
+            else:
+                del candidate_words[item[0]]
+                notDone=True
+                print(f"Deleted {item[0]}")
+        for item2 in candidates_non_predicted:
+            if (item2[2]-average_similar)/sd_similar>-3 and (item2[3]-average_perp)/sd_perp>-3:
+                scaled_list_non_predicted.append((item2[0], item2[1], (item2[2]-average_similar)/sd_similar, (item2[3]-average_perp)/sd_perp, (item2[4]-average_match)/sd_match))
+            else:
+                del candidate_words[item2[0]]
+                notDone=True
+                print(f"Deleted {item2[0]}")
+    response = {} 
+    for word, pred, similar, gramm, match in scaled_list_predicted + scaled_list_predicted:
+        response[word] = (similar, gramm, match)
+    print(response)
+    return jsonify(response)
 
 
 testing = False
