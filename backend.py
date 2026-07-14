@@ -574,7 +574,7 @@ def alternatives():
                 print(f"Deleted {item2[0]}")
     response = {} 
     for word, pred, similar, gramm, match in scaled_list_predicted + scaled_list_predicted:
-        response[word] = (similar, gramm, match)
+        response[word] = (float(similar), float(gramm), float(match))
     print(response)
     return jsonify(response)
 

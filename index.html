@@ -16,8 +16,11 @@
         <button class="flex justify-self-end px-1" id="close_alternatives" onclick="close_alternatives()">X</button>
         <div class="h-full w-full flex justify-center items-center">
             <div class="w-[30%] h-[100%]">
+                <p1> Similarity slider </p1>
                 <input type="range" id="similarity_slider" onchange="display_alternatives()">
+                <p1> Grammatical slider </p1>
                 <input type="range" id="grammatical_slider" onchange="display_alternatives()">
+                <p1> Rarity slider </p1>
                 <input type="range" id="rare_slider" onchange="display_alternatives()">
             </div>
             <div class="w-[60%] h-[90%] top-0 overflow-auto overscroll-contain">
@@ -35,7 +38,7 @@
     </div>
     <header class="flex flex-col justify-center font-bold items-center bg-gradient-to-br from-sky-600 to-sky-100 pt-4 pb-2">
         <h1 class="tracking-widest bg-black/30 text-white text-6xl rounded-xl p-5 shadow-xl">VOCABULARY IMPROVER</h1>
-        <h3 class="text-xs font-serif pt-2 font-thin italic text-gray-800 ">A tool crafted to perfection</h3>
+        <h3 class="text-xs font-serif pt-2 font-thin italic text-gray-800 ">A tool crafted to expand your vocabulary</h3>
     </header>
     <div class="bg-gray-200">
         <div class="flex justify-start pl-10 p-5"id="problematic-word">
