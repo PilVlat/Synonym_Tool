@@ -314,158 +314,6 @@ def process(sentence, word_to_replace):
         show_n(10, word_scores, sentence, word_to_replace)
 
 
-text = """.
-Sunset Boulevard, directed by Billy Wilder, is a 1950s noir melodrama that
-investigates how the popularity of the Hollywood film industry encouraged a
-social fixation on the glory of celebrity. Throughout the film, Wilder explores
-the nuances of success and fame, sometimes pitting the two qualities against
-each other. Sunset Boulevard demonstrates that striving for career success
-can have both positive and negative outcomes; however, it suggests that
-those who are swept up in Hollywood’s preoccupation with fame will almost
-always experience negative consequences. Furthermore, the film interrogates
-the role of the audience in this destruction, insinuating that audiences
-perpetuate Hollywood’s obsession with fame through an intense fascination
-with gossip and scandal, in a way that conceals its true costs.
-Wilder uses the character of Joe Gillis to warn the audience about the
-harmful effects of self-interest and an obsession with success. At the
-beginning of the film, Joe, a struggling screenwriter, devises ‘a little plot’,
-lying that Norma’s ‘silly hodgepodge’ script is ‘fascinating’ so she will
-hire him as an editor. This suggests that Joe’s self-interest has destructive
-implications, as he is willing to indulge Norma’s self-delusion in order to
-gain money and eventual success, even though the relationship he establishes
-with Norma is founded on dishonesty. Wilder also uses the ‘dead monkey
-upstairs’ as a symbol of Joe’s impending doom. When Joe refers to the
-monkey as Norma’s ‘only child’ and ponders the emptiness of Norma’s life, he
-acknowledges that the monkey was a wild animal that had been kept locked
-in the house as a pet – a plaything for Norma. As Joe watches over ‘the last
-rites for that hairy old chimp’, the close-up shot of Joe’s face, framed by the
-blinds and the bars of the window frame, implies a sense of confinement,
-signalling to the audience that it is now Joe who is trapped in the house.
-Wilder’s implicit comparison between Joe and the monkey can be seen as
-a warning to the audience that Joe’s desire to get ahead could lead to him
-sharing the monkey’s fate. The characterisation of Joe, and his character arc,
-demonstrate that ambition and selfishness can be disastrous for an individual
-and their relationships.
-However, the film does not always show ambition and a desire for success
-to be wholly negative. In particular, it juxtaposes Joe’s self-interest with the
-characterisation of Betty Schaefer, an aspiring writer who has ‘not once’
-wished for fame, and who ultimately views success as writing ‘true’ and
-‘moving’ screenplays. Betty’s emphasis on creating work that holds its value
-contrasts with Joe’s choice to work on Norma’s ‘idiotic script’ for short-term
-gain; Betty’s ambition is presented as being more admirable than Joe’s. Near
-the end of the film, Joe recognises the potential in Betty’s ambition and
-Signposts the essay’s
-approach to the idea of
-success, establishing partial
-agreement with the topic
-statement (i.e. striving
-for success is not always
-destructive).
-Signposts the approach to
-the idea of fame.
-Signposts an additional
-element to the analysis,
-which will be the focus of
-the final body paragraph.
-Begins the first body
-paragraph with a clear
-topic sentence.
-Uses relevant textual
-evidence and shows
-understanding of how
-meaning is created by the
-text’s construction.
-Incorporates short quotes
-into the discussion.
-Ends the paragraph with a
-clear link to the topic.
-Introduces discussion of a
-second main character to
-demonstrates the positive
-as well as negative aspects
-of ambition. The linking
-word ‘however’ signals the
-compare/contrast approach
-being used to develop the
-argument.
-Chapter 06 Analytical text responses: writing the essay
-Digital resources © Insight Publications 2023 English Year 12: VCE Units 3 & 4
-ideals, and encourages her to leave him in Norma’s mansion so she can ‘finish
-that script’, ultimately saving her from being caught up in the destructive
-conflict between himself and Norma. Consequently, the film suggests that
-ambition, when held by people with good intentions and values, can be a
-worthy quality and can lead to positive outcomes.
-While Sunset Boulevard portrays the idea of success as complex and nuanced,
-it depicts fame as a fantasy or delusion that is intrinsically linked to selfimage. Norma Desmond, the ‘famous star of yesteryear’, is unable to separate
-fantasy and reality, as she believes that she is still famous and has ‘fan-letters
-every day’. Wilder consistently frames Norma surrounded by photographs
-of herself when she was younger. The mid-shots of the many photographs
-spread through the house, which is ‘crowded with Norma Desmonds’,
-remind the audience that Norma has built herself a delusional self-image,
-based on her fantasy of still being young and famous. However, as soon as
-Joe reveals that ‘the audience left twenty years ago’ and that ‘there isn’t going
-to be any picture’, Norma’s fantasy is shattered, and she realises that she
-no longer has the level of fame that she dreams of. This revelation leads to
-Norma’s ultimate downfall when she shoots Joe. Wilder uses Norma’s mental
-breakdown to demonstrate that the fantasy of fame inevitably results in
-destruction.
-Sunset Boulevard also suggests that audiences are at least partly responsible
-for perpetuating the Hollywood obsession with fame, through their
-unstinting interest in scandal and gossip. Joe’s post-death narration further
-emphasises the difference between fame and success in the eyes of the
-Hollywood community. In these final scenes, Norma receives the attention
-she has always wanted, as her house is swarming with ‘cops, reporters,
-neighbours, passers-by … even the newsreel guys’. Instead of being viewed as
-successful, however, she is pitied by the neighbourhood. Here, Wilder reveals
-that, in the Hollywood of the 1950s, people could achieve fame without
-success, as the public was so fascinated by scandalous stories. Indeed, Wilder
-uses the final scene to critique the role of his audience in encouraging the
-film industry’s fixation on fame. Norma’s direct address to ‘those wonderful
-people out there in the dark’, combined with the brightly lit close-up shot
-of her staring into the camera lens, directly positions the audience to feel
-as though they are included in Wilder’s commentary on success and fame,
-as they, too, are engrossed in Norma’s downfall. Wilder’s inclusion of the
-audience makes the final argument that the obsession with fame is an issue
-for the broader society, as it is fuelled by the public’s insatiable desire for
-gossip and scandal. Joe’s death symbolises the destruction caused by this
-obsession: it is the grim reality hidden from view by the glamorous facade of
-Hollywood, but real nonetheless.
-Transitions to a discussion
-of the other key term in the
-topic – fame.
-Uses relevant
-metalanguage – ‘frames’,
-‘mid-shots’ – to analyse
-the film’s representation
-of Norma and show an
-understanding of the film
-genre.
-Engages closely with the
-destructive effects of an
-obsession with fame.
-Moves on to the final
-signpost from the
-introduction.
-Continues the argument
-about the distinction
-drawn by the film between
-success and fame.
-Links strongly to the
-topic through the focus
-on destructive effects,
-enabling a smooth
-transition to the concluding
-paragraph.
-Chapter 06 Analytical text responses: writing the essay
-© Insight Publications 2023 English Year 12: VCE Units 3 & 4 Digital resources
-Sunset Boulevard presents a nuanced and complex depiction of the social
-dynamics at play in the Hollywood film industry during the 1950s. Billy
-Wilder challenges the idea that ambition is always destructive, yet he also
-reaffirms that those who seek fame at any price are at risk of devastation.
-In investigating these ideas, Sunset Boulevard encourages its audience to
-critically interrogate their own role in perpetuating the social obsession with
-success and fame."""
-
 limiter = Limiter(get_remote_address, app=app)
 
 @app.before_request
@@ -586,6 +434,157 @@ def alternatives():
 
 testing = False
 if testing:
+    text = """.
+    Sunset Boulevard, directed by Billy Wilder, is a 1950s noir melodrama that
+    investigates how the popularity of the Hollywood film industry encouraged a
+    social fixation on the glory of celebrity. Throughout the film, Wilder explores
+    the nuances of success and fame, sometimes pitting the two qualities against
+    each other. Sunset Boulevard demonstrates that striving for career success
+    can have both positive and negative outcomes; however, it suggests that
+    those who are swept up in Hollywood’s preoccupation with fame will almost
+    always experience negative consequences. Furthermore, the film interrogates
+    the role of the audience in this destruction, insinuating that audiences
+    perpetuate Hollywood’s obsession with fame through an intense fascination
+    with gossip and scandal, in a way that conceals its true costs.
+    Wilder uses the character of Joe Gillis to warn the audience about the
+    harmful effects of self-interest and an obsession with success. At the
+    beginning of the film, Joe, a struggling screenwriter, devises ‘a little plot’,
+    lying that Norma’s ‘silly hodgepodge’ script is ‘fascinating’ so she will
+    hire him as an editor. This suggests that Joe’s self-interest has destructive
+    implications, as he is willing to indulge Norma’s self-delusion in order to
+    gain money and eventual success, even though the relationship he establishes
+    with Norma is founded on dishonesty. Wilder also uses the ‘dead monkey
+    upstairs’ as a symbol of Joe’s impending doom. When Joe refers to the
+    monkey as Norma’s ‘only child’ and ponders the emptiness of Norma’s life, he
+    acknowledges that the monkey was a wild animal that had been kept locked
+    in the house as a pet – a plaything for Norma. As Joe watches over ‘the last
+    rites for that hairy old chimp’, the close-up shot of Joe’s face, framed by the
+    blinds and the bars of the window frame, implies a sense of confinement,
+    signalling to the audience that it is now Joe who is trapped in the house.
+    Wilder’s implicit comparison between Joe and the monkey can be seen as
+    a warning to the audience that Joe’s desire to get ahead could lead to him
+    sharing the monkey’s fate. The characterisation of Joe, and his character arc,
+    demonstrate that ambition and selfishness can be disastrous for an individual
+    and their relationships.
+    However, the film does not always show ambition and a desire for success
+    to be wholly negative. In particular, it juxtaposes Joe’s self-interest with the
+    characterisation of Betty Schaefer, an aspiring writer who has ‘not once’
+    wished for fame, and who ultimately views success as writing ‘true’ and
+    ‘moving’ screenplays. Betty’s emphasis on creating work that holds its value
+    contrasts with Joe’s choice to work on Norma’s ‘idiotic script’ for short-term
+    gain; Betty’s ambition is presented as being more admirable than Joe’s. Near
+    the end of the film, Joe recognises the potential in Betty’s ambition and
+    Signposts the essay’s
+    approach to the idea of
+    success, establishing partial
+    agreement with the topic
+    statement (i.e. striving
+    for success is not always
+    destructive).
+    Signposts the approach to
+    the idea of fame.
+    Signposts an additional
+    element to the analysis,
+    which will be the focus of
+    the final body paragraph.
+    Begins the first body
+    paragraph with a clear
+    topic sentence.
+    Uses relevant textual
+    evidence and shows
+    understanding of how
+    meaning is created by the
+    text’s construction.
+    Incorporates short quotes
+    into the discussion.
+    Ends the paragraph with a
+    clear link to the topic.
+    Introduces discussion of a
+    second main character to
+    demonstrates the positive
+    as well as negative aspects
+    of ambition. The linking
+    word ‘however’ signals the
+    compare/contrast approach
+    being used to develop the
+    argument.
+    Chapter 06 Analytical text responses: writing the essay
+    Digital resources © Insight Publications 2023 English Year 12: VCE Units 3 & 4
+    ideals, and encourages her to leave him in Norma’s mansion so she can ‘finish
+    that script’, ultimately saving her from being caught up in the destructive
+    conflict between himself and Norma. Consequently, the film suggests that
+    ambition, when held by people with good intentions and values, can be a
+    worthy quality and can lead to positive outcomes.
+    While Sunset Boulevard portrays the idea of success as complex and nuanced,
+    it depicts fame as a fantasy or delusion that is intrinsically linked to selfimage. Norma Desmond, the ‘famous star of yesteryear’, is unable to separate
+    fantasy and reality, as she believes that she is still famous and has ‘fan-letters
+    every day’. Wilder consistently frames Norma surrounded by photographs
+    of herself when she was younger. The mid-shots of the many photographs
+    spread through the house, which is ‘crowded with Norma Desmonds’,
+    remind the audience that Norma has built herself a delusional self-image,
+    based on her fantasy of still being young and famous. However, as soon as
+    Joe reveals that ‘the audience left twenty years ago’ and that ‘there isn’t going
+    to be any picture’, Norma’s fantasy is shattered, and she realises that she
+    no longer has the level of fame that she dreams of. This revelation leads to
+    Norma’s ultimate downfall when she shoots Joe. Wilder uses Norma’s mental
+    breakdown to demonstrate that the fantasy of fame inevitably results in
+    destruction.
+    Sunset Boulevard also suggests that audiences are at least partly responsible
+    for perpetuating the Hollywood obsession with fame, through their
+    unstinting interest in scandal and gossip. Joe’s post-death narration further
+    emphasises the difference between fame and success in the eyes of the
+    Hollywood community. In these final scenes, Norma receives the attention
+    she has always wanted, as her house is swarming with ‘cops, reporters,
+    neighbours, passers-by … even the newsreel guys’. Instead of being viewed as
+    successful, however, she is pitied by the neighbourhood. Here, Wilder reveals
+    that, in the Hollywood of the 1950s, people could achieve fame without
+    success, as the public was so fascinated by scandalous stories. Indeed, Wilder
+    uses the final scene to critique the role of his audience in encouraging the
+    film industry’s fixation on fame. Norma’s direct address to ‘those wonderful
+    people out there in the dark’, combined with the brightly lit close-up shot
+    of her staring into the camera lens, directly positions the audience to feel
+    as though they are included in Wilder’s commentary on success and fame,
+    as they, too, are engrossed in Norma’s downfall. Wilder’s inclusion of the
+    audience makes the final argument that the obsession with fame is an issue
+    for the broader society, as it is fuelled by the public’s insatiable desire for
+    gossip and scandal. Joe’s death symbolises the destruction caused by this
+    obsession: it is the grim reality hidden from view by the glamorous facade of
+    Hollywood, but real nonetheless.
+    Transitions to a discussion
+    of the other key term in the
+    topic – fame.
+    Uses relevant
+    metalanguage – ‘frames’,
+    ‘mid-shots’ – to analyse
+    the film’s representation
+    of Norma and show an
+    understanding of the film
+    genre.
+    Engages closely with the
+    destructive effects of an
+    obsession with fame.
+    Moves on to the final
+    signpost from the
+    introduction.
+    Continues the argument
+    about the distinction
+    drawn by the film between
+    success and fame.
+    Links strongly to the
+    topic through the focus
+    on destructive effects,
+    enabling a smooth
+    transition to the concluding
+    paragraph.
+    Chapter 06 Analytical text responses: writing the essay
+    © Insight Publications 2023 English Year 12: VCE Units 3 & 4 Digital resources
+    Sunset Boulevard presents a nuanced and complex depiction of the social
+    dynamics at play in the Hollywood film industry during the 1950s. Billy
+    Wilder challenges the idea that ambition is always destructive, yet he also
+    reaffirms that those who seek fame at any price are at risk of devastation.
+    In investigating these ideas, Sunset Boulevard encourages its audience to
+    critically interrogate their own role in perpetuating the social obsession with
+    success and fame."""
     occurences, match_count_text, doc = text_weaknesses(text, nlp)
     sorted_occurences = sorted(occurences.items(), key=lambda item: item[1], reverse=True)
     token_plotting(match_count_text, occurences)
