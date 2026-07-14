@@ -16,6 +16,10 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch.nn.functional as F
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 print("Finished importing modules")
 word = "anonymous"
@@ -600,4 +604,4 @@ if testing:
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=os.getenv("PORT"))
