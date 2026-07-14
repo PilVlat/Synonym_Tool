@@ -8,14 +8,12 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import numpy as np
 import sqlite3
-import matplotlib.pyplot as plt
 import spacy
 import collections
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-import torch.nn.functional as F
 from dotenv import load_dotenv
 import os
 print("Finished importing modules")
@@ -39,11 +37,11 @@ def load_all():
     tokenise_roberta = AutoTokenizer.from_pretrained("textattack/distilbert-base-uncased-CoLA")
 
     ########### PREDICT WORD ###################
-    fill_mask = pipeline("fill-mask", model="bert-base-uncased")
+    fill_mask = pipeline("fill-mask", model="distilbert/distilbert-base-uncased")
     print("bert model loaded")
 
     ####### SIMILARITY MODEL ##################
-    model_similarity = SentenceTransformer('paraphrase-MiniLM-L12-v2')
+    model_similarity = SentenceTransformer('sentence-transformers/paraphrase-MiniLM-L6-v2')
     print("similarity model loaded")
 
 
