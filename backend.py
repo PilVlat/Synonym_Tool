@@ -92,7 +92,7 @@ def get_synonyms(word):
             words = ['center', 'hub', 'capital', 'mecca', 'core', 'heart', 'seat', 'locus', 'base', 'nucleus', 'central', 'nexus', 'axis', 'ground zero', 'headquarters', 'epicenter', 'eye', 'navel', 'nerve center', 'cynosure', 'playground', 'omphalos', "where it's at", 'hot spot', 'essence', 'attraction', 'hotbed', 'magnet', 'kernel', 'hive', 'nub', 'pith', 'happy hunting ground', 'thick', 'deep', 'soul', 'playland', 'loadstone', 'polestar', 'lodestone', 'quintessence', 'concentrate', 'rivet', 'center', 'train', 'fasten', 'point', 'aim', 'home (in on)', 'direct', 'refocus', 'set', 'heed', 'level', 'zero (in on)', 'attend', 'mind', 'nail', 'fixate (on)', 'hone in (on)', 'obsess (over)', 'center', 'hub', 'capital', 'mecca', 'core', 'heart', 'seat', 'locus', 'base', 'nucleus', 'central', 'nexus', 'axis', 'ground zero', 'headquarters', 'epicenter', 'eye', 'navel', 'nerve center', 'cynosure', 'playground', 'omphalos', "where it's at", 'hot spot', 'essence', 'attraction', 'hotbed', 'magnet', 'kernel', 'hive', 'nub', 'pith', 'happy hunting ground', 'thick', 'deep', 'soul', 'playland', 'loadstone', 'polestar', 'lodestone', 'quintessence', 'concentrate', 'rivet', 'center', 'train', 'fasten', 'point', 'aim', 'home (in on)', 'direct', 'refocus', 'set', 'heed', 'level', 'zero (in on)', 'attend', 'mind', 'nail', 'fixate (on)', 'hone in (on)', 'obsess (over)']
         else:
             headers = {
-                "X-Api-Key":"17OFIFEu8jNMjQQgnXW1lg==FfkSwkqo1ypAXWta"
+                "X-Api-Key":os.getenv("NINJA_API_KEY")
             }
             url = f"https://api.api-ninjas.com/v1/thesaurus?word={word}"
             input("USING AN API KEY")
